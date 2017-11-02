@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <!-- class and id definition-->
+    <style>
+        body {
+            background-color: #E5E5E5;
+        }
+        .pull-center {
+            text-align: center;
+        }
+        .pull-right{
+            text-align:right;
+        }
+        .text{
+            font-family: 'Comic Sans MS';
+            color:black;
+        }
+        ul {
+            list-style-type: none;
+           
+            overflow: hidden; 
+        }
+
+        li {
+            float: left;
+        }
+        b {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px;
+            background-color: #DDDDDD;
+        }
+            li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px;
+                background-color: #DDDDDD;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #CCCCFF;
+                }
+
+        .active {
+            background-color: #9999FF;
+        }
+        .img{
+           width:100%;
+           height:auto;
+           margin-right:auto;
+            
+        }
+      </style>
+        </head > 
+        <body > 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="pull-center">
+                            <h1 class="text">e-Mensa</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-5">  
+                        <ul>
+                            <li class="active"><b>Start</b></li>
+                            <li><a href="#news">Mahlzeiten</a></li>
+                            <li><a href="#contact">Bestellungen</a></li>
+                            <li><a href="#about">FH-Aachen</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Search Google -->
+                        <form method="get" action="http://www.google.de/search" name="googlesearch">
+                            <input type="text" name="q" class="inputbox" value="FH Suche">
+                            <input type="hidden" name="https://www.fh-aachen.de" value="de">
+                            <input type="submit" name="btnG" value="Google-Suche">
+                        </form>
+                        <!-- Search Google -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--Bild|Linie-->
+                        <div class="img">
+                            <p style="text-align:center;"><img src="mensa_new.jpg"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-3">
+                        <!--Buttons-->
+                    </div>
+                </div>
+            </div>
+
+</body >
+        </html >
+        
